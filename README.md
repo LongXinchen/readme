@@ -31,13 +31,13 @@ tar -xvf Senta_data.tar
 #### 模型下载
 我们开源了基于ChnSentiCorp数据训练的情感倾向性分类模型（基于BOW、CNN、LSTM、ERNIE多种模型训练），可供用户直接使用。我们提供两种下载方式。
 
-* 方式一：基于PaddleHub命令行工具（PaddleHub安装方式 https://github.com/PaddlePaddle/PaddleHub）
+**方式一**：基于PaddleHub命令行工具（PaddleHub安装方式 https://github.com/PaddlePaddle/PaddleHub）
 ```shell
 hub download sentiment_classification --output_path ./
 tar -xvf sentiment_classification-1.0.0.tar.gz
-```shell
+```
 
-* 方式二：直接下载
+**方式二**：直接下载
 ```shell
 wget https://baidu-nlp.bj.bcebos.com/sentiment_classification-1.0.0.tar.gz
 tar -xvf sentiment_classification-1.0.0.tar.gz
